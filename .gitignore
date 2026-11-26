@@ -1,0 +1,26 @@
+# Secretos: NUNCA se suben
+.env
+.env.*
+!.env.example
+
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Datos y resultados locales (pueden ser grandes; se regeneran)
+data/
+resultados/
+.tradingagents/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
